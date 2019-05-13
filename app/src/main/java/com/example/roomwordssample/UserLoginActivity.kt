@@ -51,7 +51,6 @@ class UserLoginActivity : AppCompatActivity() {
                 Log.e(TAG, e.toString())
             }
         })
-
     }
 
     private fun showSignIn() {
