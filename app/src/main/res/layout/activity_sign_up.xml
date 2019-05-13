@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                 xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                 xmlns:tools="http://schemas.android.com/tools"
+                                                 android:layout_width="match_parent"
+                                                 android:layout_height="match_parent"
+                                                 tools:context=".singup.SignUpActivity">
+
+    <!--<include layout="@layout/content_main" />-->
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:gravity="center"
+                  android:layout_margin="16dp"
+                  android:orientation="vertical">
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:gravity="center"
+                  android:textSize="24sp"
+                  android:textColor="@color/black"
+                  android:text="@string/signup"/>
+
+        <EditText android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_margin="16dp"
+                  android:importantForAutofill="no"
+                  android:hint="@string/name"/>
+
+        <EditText android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_margin="16dp"
+                  android:importantForAutofill="no"
+                  android:hint="@string/username"/>
+
+        <EditText android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_margin="16dp"
+                  android:inputType="textPassword"
+                  android:hint="@string/password"/>
+
+        <EditText android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_margin="16dp"
+                  android:inputType="textPassword"
+                  android:hint="@string/confirm_password"/>
+
+        <EditText android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_margin="16dp"
+                  android:importantForAutofill="no"
+                  android:hint="@string/email_address_text"/>
+
+        <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_margin="16dp"
+                android:background="#000000"
+                android:src="@android:drawable/ic_menu_save"
+                android:tint="@color/white"/>
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

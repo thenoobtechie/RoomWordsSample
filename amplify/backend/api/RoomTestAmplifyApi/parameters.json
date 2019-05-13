@@ -1,0 +1,10 @@
+{
+    "AppSyncApiName": "RoomTestAmplifyApi",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authcognito87c1b36a",
+            "Outputs.UserPoolId"
+        ]
+    }
+}

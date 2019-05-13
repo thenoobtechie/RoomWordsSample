@@ -1,0 +1,36 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "roomwordssample-dev-20190510102915-authRole",
+            "UnauthRoleArn": "arn:aws:iam::427509064571:role/roomwordssample-dev-20190510102915-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::427509064571:role/roomwordssample-dev-20190510102915-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "roomwordssample-dev-20190510102915-deployment",
+            "UnauthRoleName": "roomwordssample-dev-20190510102915-unauthRole",
+            "StackName": "roomwordssample-dev-20190510102915",
+            "StackId": "arn:aws:cloudformation:us-east-1:427509064571:stack/roomwordssample-dev-20190510102915/5e6fd960-72e0-11e9-a5f9-0a79b0f3a14a"
+        },
+        "categories": {
+            "auth": {
+                "cognito87c1b36a": {}
+            }
+        }
+    },
+    "testenv": {
+        "awscloudformation": {
+            "AuthRoleName": "roomwordssample-testenv-20190511121806-authRole",
+            "UnauthRoleArn": "arn:aws:iam::427509064571:role/roomwordssample-testenv-20190511121806-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::427509064571:role/roomwordssample-testenv-20190511121806-authRole",
+            "Region": "ap-south-1",
+            "DeploymentBucketName": "roomwordssample-testenv-20190511121806-deployment",
+            "UnauthRoleName": "roomwordssample-testenv-20190511121806-unauthRole",
+            "StackName": "roomwordssample-testenv-20190511121806",
+            "StackId": "arn:aws:cloudformation:ap-south-1:427509064571:stack/roomwordssample-testenv-20190511121806/bb3e4db0-73b8-11e9-845c-0a00a26756d4"
+        },
+        "categories": {
+            "auth": {
+                "cognito87c1b36a": {}
+            }
+        }
+    }
+}

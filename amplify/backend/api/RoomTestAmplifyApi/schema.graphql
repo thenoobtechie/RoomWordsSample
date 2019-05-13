@@ -1,0 +1,5 @@
+type Todo @model {
+  id: String!
+  name: String!
+  description: String
+}
